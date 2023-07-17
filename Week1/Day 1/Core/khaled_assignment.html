@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>assignment</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form >
+            <div>
+                <label>First Name:*  </label>
+                <input type="text" name="first_name" required>
+            </div>
+            <div>
+                <label>Last Name:*  </label>
+                <input type="text" name="last_name" required>
+            </div>
+            <div>
+                <label> Email Address:* </label>
+                <input type="email" name="email" required>
+            </div>
+            <div>
+                <label>Password:* </label>
+                <input type="password" name="password" required>
+            </div>
+            <div>
+                <label>Birthday:*</label>
+                <input type="date" name="birthday" required>
+            </div>
+            <h5>
+                Gender Identity:
+            </h5>
+            <div>
+                <input type="radio" name="male" value="male" >
+                <label>Male</label>
+                <input type="radio" name="female" value="female" >
+                <label>Female</label>
+                <input type="radio" name="non_binary" value="non_binary" >
+                <label>Non-binary</label>
+                <input type="radio" name="no-answer" value="no-answer">
+                <label>I prefer not to answer</label>
+            </div>
+            <div>
+                <h5>
+                    A short description about myself:
+                </h5>
+                <textarea name="description" id="description" cols="22" rows="2"></textarea>
+            </div>
+            <div>
+                <label>FAvorite Language: </label>
+                <select name="language" id="language">
+                    <option value="JavaScript">
+                        JavaScript
+                    </option>
+                </select>
+            </div>
+            <div>
+                <label>Yes, I would like receive periodic email updates </label>
+                <input type="checkbox" name="update" >
+            </div>
+            <div>
+                <input type="submit" name="create_account" value="Create Account">
+                <p>*Indicates a reqyuired field</p>
+            </div>
+        </form>
+</body>
+</html>
