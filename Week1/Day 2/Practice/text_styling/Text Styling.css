@@ -1,0 +1,18 @@
+.MC{
+    color:white;
+    background-color: black;
+}
+#cloud{
+    color:aqua;
+}
+.CP{
+    background-color:blueviolet;
+    text-align:center ;
+    font-style: italic;
+    color: white;
+}
+.CU{
+    background-color:rgb(0, 174, 255);
+    text-align: right;
+    text-decoration: underline;
+}
